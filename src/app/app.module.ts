@@ -7,6 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { WritingComponent } from './writing/writing.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MediumFeedComponent } from './writing/medium-feed/medium-feed.component';
 
 const appRoutes: Routes = [
   { path: '', component: AboutComponent },
@@ -19,7 +20,8 @@ const appRoutes: Routes = [
     NavigationComponent,
     AboutComponent,
     WritingComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MediumFeedComponent
   ],
   imports: [
     BrowserModule,
