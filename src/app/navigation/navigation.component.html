@@ -1,20 +1,23 @@
 <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a
-        class="nav-link active" 
-        [routerLink]="['/']" >About</a>
+    <li class="nav-item" 
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact: true}">
+      <a class="nav-link active"
+        [routerLink]="['/']">
+        About
+      </a>
     </li>
-    <li class="nav-item">
-      <a
-        class="nav-link" 
-        [routerLink]="['/projects']">
+    <li class="nav-item" 
+        routerLinkActive="active">
+      <a class="nav-link" 
+         [routerLink]="['/projects']">
         Projects
       </a>
     </li>
-    <li class="nav-item">
-      <a 
-        class="nav-link" 
-        [routerLink]="['/writings']">
+    <li class="nav-item" 
+        routerLinkActive="active">
+      <a class="nav-link"
+         [routerLink]="['/writings']">
         Writings
       </a>
     </li>
